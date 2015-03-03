@@ -12,10 +12,9 @@ package com.wcs.fizzbuzz;
 public class CounterWriter {
     FizzBuzzer fibu = new FizzBuzzer();
     String szamHelyett;
-    int i;
     
-    public void progi() {
-            for ( i = 1; i < 101; i++ ) {
+    public void progi( void ) {
+            for ( int i = 1; i < 101; i++ ) {
             szamHelyett = fibu.execute( i );
             System.out.println( szamHelyett );
         }
